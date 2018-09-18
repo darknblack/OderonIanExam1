@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
                 android:orientation="horizontal"
-                android:padding="10dp">
+                android:padding="30dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -42,11 +42,8 @@
 
                     <TextView
                         android:id="@+id/textView12"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Personal Notes"
-                        android:textAlignment="center" />
+                        style="@style/Link"
+                        android:text="Personal Notes" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -65,11 +62,8 @@
 
                     <TextView
                         android:id="@+id/textView13"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="TextView"
-                        android:textAlignment="center" />
+                        style="@style/Link"
+                        android:text="School" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -88,11 +82,8 @@
 
                     <TextView
                         android:id="@+id/textView14"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="Public Notes"
-                        android:textAlignment="center" />
+                        style="@style/Link"
+                        android:text="Public Notes" />
 
                 </LinearLayout>
 
@@ -144,7 +135,7 @@
                     <android.support.v7.widget.CardView
                         style="@style/Cw"
                         android:layout_width="match_parent"
-                        android:layout_height="214dp"
+                        android:layout_height="250dp"
                         app:cardBackgroundColor="#DB7259"
                         app:contentPadding="10dp">
 
@@ -196,7 +187,7 @@
 
                     <android.support.v7.widget.CardView
                         style="@style/Cw"
-                        android:layout_height="230dp"
+                        android:layout_height="270dp"
                         app:cardBackgroundColor="#FBC451"
                         app:contentPadding="10dp">
 
